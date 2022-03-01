@@ -19,8 +19,8 @@ const RESOURCES = {
 "assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
-"index.html": "03660c3e960786472de140c61ce0aac5",
-"/": "03660c3e960786472de140c61ce0aac5",
+"index.html": "39a7843b783de95e28ef7baeb0283a2e",
+"/": "39a7843b783de95e28ef7baeb0283a2e",
 "main.dart.js": "78dafcdc5cc538ddf3204759bb8e5e04"
 };
 
@@ -31,8 +31,9 @@ const CORE = [
 "main.dart.js",
 "index.html",
 "assets/NOTICES",
-"assets/AssetManifest.json",
-"assets/FontManifest.json"];
+//"assets/AssetManifest.json",
+//"assets/FontManifest.json"
+];
 // During install, the TEMP cache is populated with the application shell files.
 self.addEventListener("install", (event) => {
   self.skipWaiting();
